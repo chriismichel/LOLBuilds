@@ -1,33 +1,34 @@
 function gerarBuilds(role) {
-
-    switch(role) {
-        case "Slayer":
-            rolesSlayer();
-            break;
-        case "Marksman":
-            rolesMarksman();
-    }
+    var buildsFiltradas = buscaBuildsPorRole(role);
+    preencheHtmlRoles(buildsFiltradas);
 }
 
-function rolesSlayer() {
-    buildsSlayer = [];
+function buscaBuildsPorRole(role) {
+    buildsPorRole = [];
     builds.forEach(function(build)
     {
-        if(build.role == 'Slayer') {
-            buildsSlayer.push(build);
+        if(build.role == role) {
+            buildsPorRole.push(build);
         }
     });
-    return buildsSlayer;
+    return buildsPorRole;
 }
 
-function preencheRoles(lista_de_builds) {
+function preencheHtmlRoles(lista_de_builds) {
     var builds = $("#builds");
     lista_de_builds.forEach(function(build){
         //criar elementos de exibição
-        var elementoNome = "<div>" + build.role + "</div";
         var divBuild = $("<div>");
         divBuild.addClass("build");
-        divBuild.append(elementoNome);
+
+        build.itens.forEach(function(item) {
+            var itemNome = "<div>" + item.nome + "</div>";
+            var itemImagem = "<img src='" + item.imagem + "'>";
+            divBuild.append(itemNome);
+            divBuild.append(itemImagem);
+        });
+        var elementoRole = "<div>" + build.role + "</div>";
+        divBuild.append(elementoRole);
         builds.append(divBuild);
     });
 }

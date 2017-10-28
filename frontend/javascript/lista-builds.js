@@ -2,10 +2,32 @@ var builds =
 [
     {
         Id: 1,
-        role: "Slayer"
+        role: "Slayer",
+        itens: 
+        [
+            {
+                nome: exemplo,
+                imagem: exemplo
+            },
+            {
+                nome: outro,
+                imagem: outro
+            }
+        ]
     },
     {
         Id: 2,
-        role: "Slayer"
+        role: "Slayer",
+        itens: 
+        [
+            {
+                nome: exemplo,
+                imagem: exemplo
+            },
+            {
+                nome: outro,
+                imagem: outro
+            }
+        ]
     }
 ]
