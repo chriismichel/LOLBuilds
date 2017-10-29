@@ -14,6 +14,16 @@ body{
 	color: black;
 }
 
+.build {
+	border-radius: 15px;
+	background-color: rgba(116, 21, 21, 0.705);
+	border: 1px solid red;
+	color: white;
+	margin: 20px;
+	opacity: 50%;
+
+}
+
 .logoLol {
 	margin: 0 auto; 
 	width: 200px;
