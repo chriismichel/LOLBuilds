@@ -1,0 +1,32 @@
+Build Generator for League of Legends
+
+Introdução
+O projeto consiste em uma aplicação que visa auxiliar usuários de diferentes elos na construção de seu build, através da indicação de itens finais buscando relações em diversos aspectos do invocador.
+
+Integrantes
+Christopher Michel, Adriano Ramos, Pedro Vieira, João Vitor
+
+Tecnologias
+O projeto consiste em um conjunto de duas aplicações, sendo uma aplicação web e uma aplicação android.
+Para o desenvolvimento da aplicação web, foram utilizados:
+-javascript
+-css
+-html
+-bootstrap
+-jquery
+
+Público alvo
+Invocadores que desejam aumentar suas chances de vitória, através de uma escolha mais refinada quanto a itens que devem ser adquiridos ao longo das partidas.
+
+Acesso ao sistema
+A aplicação está disponpivel através do endereço hackages.com.br/batatones/LOLBuild/frontend/menu
+
+Próximos passos
+Atualmente, as aplicações contam com uma base de dados mockada, porém, a ideia chave é justamente a construção de uma API, no qual será consumida pelas duas aplicações
+
+Ferramentas utilizada
+-Trello
+-Visual studio code
+-Github/gitkraken
+-Sublime
+-Filezilla
