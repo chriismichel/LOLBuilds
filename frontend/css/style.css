@@ -12,14 +12,16 @@ img-log{
 
 body{
 	background-color: black;
+	background-image: url("imagens/logoLol.png");
 }
 
 .buttonGenerateBuild {
 	font-size: 30px;
-	color: #A52A2A;
+	color: black;
 }
 
 .logoLol {
+	margin: 0 auto; 
 	width: 200px;
 	height: 100px;
 }
@@ -31,7 +33,15 @@ body{
 
 .fonte {
     font-family: 'devgothic';
-    color: purple;
+    color: white;
+}
+
+.selectImage {
+	cursor: pointer;  /*  substituir href  */
+}
+
+.icon-bar {
+	background-color: white;
 }
 
 

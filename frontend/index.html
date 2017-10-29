@@ -22,12 +22,14 @@
 
   <body>
 
+  		<h1><a href=""> <img class="logoLol img-responsive" src="imagens/logoLol.png"> </a></h1>
+
   		<div class="container">
   		<div class="row text-center titulo fonte">
   			Gerador de Builds para LOL
   		</div>
   		<div class="row">
-  			<div class="col-xs-12 col-lg-12 col-md-12">
+  			<div class="col-xs-12 col-lg-12 col-md-12 hidden-xs">
   			<!--md-Notebook(1200) lg-Imac(acima de 1200px)-->
   				
   				 <button type="button" class ="navbar-toggle collapsed"
@@ -42,13 +44,13 @@
   		  <div class="collapse navbar-collapse" id="#barra-navegacao"> 
   		  	<ul class="nav navbar-nav navbar-right">
 
-  		  		<li><a href=""><img class="logoLol" src="imagens/logoLol.png"></a></li>
-  		  		<li> <a href=""> <img  class="selectImage" src="imagens/Fighter.png" data-id="fighter"> </a></li>
-  		  		<li> <a href=""> <img  class="selectImage" src="imagens/Mage.png" data-id="mage"> </a></li>
-  		  		<li> <a href=""> <img  class="selectImage" src="imagens/Marksman.png" data-id="marksman"> </a></li>
-  		  		<li> <a href=""> <img  class="selectImage" src="imagens/Slayer.png" data-id="slayer"> </a></li>
-  		  		<li> <a href=""> <img  class="selectImage" src="imagens/Support_icon.png" data-id="support"> </a></li>
-  		  		<li> <a href=""> <img  class="selectImage" src="imagens/Tank.png" data-id="tank"> </a></li>
+  		  		
+  		  		<li class="col-md-2">  <img  class="selectImage col-md-8" src="imagens/Fighter.png" data-id="fighter"> </a></li>
+  		  		<li class="col-md-2"> <  <img  class="selectImage col-md-8" src="imagens/Mage.png" data-id="mage"> </a></li>
+  		  		<li class="col-md-2">  <img  class="selectImage col-md-8" src="imagens/Marksman.png" data-id="marksman"> </a></li>
+  		  		<li class="col-md-2"> <a > <img  class="selectImage col-md-8" src="imagens/Slayer.png" data-id="slayer"> </a></li>
+  		  		<li class="col-md-2"> <a > <img  class="selectImage col-md-8" src="imagens/Support_icon.png" data-id="support"> </a></li>
+  		  		<li class="col-md-2"> <a > <img  class="selectImage col-md-8" src="imagens/Tank.png" data-id="tank"> </a></li>
   		  		
   		  	</ul>
   		  </div>
@@ -57,35 +59,39 @@
   			</div>
 
   		</div>
-  		  <!-- header -->
+  		  		  	<div class="row">
 
-  		  		
-  		  		<!--
-  		  		<li><a href=""> <input type="radio" name="imagem" id="i1">
-  		  		<label for="i1"><img src="imagens/Slayer.png" alt=""></label> </a> </li> 
 
-  		  		<li><a href=""> <input type="radio" name="imagem" id="i2">
-  		  		<label for="i2"><img src="imagens/Fighter.png" alt=""></label> </a> </li> 
 
-  		  		<li><a href=""> <input type="radio" name="imagem" id="i3">
-  		  		<label for="i3"><img src="imagens/Mage.png" alt=""></label> </a> </li> 
+  		  		<div class="col-md-12 col-lg-12 col-sm-12 visible-xs">  
 
-  		  		<li><a href=""> <input type="radio" name="imagem" id="i4">
-  		  		<label for="i4"><img src="imagens/Marksman.png" alt=""></label> </a> </li> 
+	  		  		 <img  class="selectImage col-xs-6" src="imagens/Fighter.png" data-id="fighter"> 
+	  		  	     <img  class="selectImage col-xs-6" src="imagens/Mage.png" data-id="mage"> 
+	  		  		 <img  class="selectImage col-xs-6" src="imagens/Marksman.png" data-id="marksman"> 
+	  		  		 <img  class="selectImage col-xs-6" src="imagens/Slayer.png" data-id="slayer"> 
+	  		  		 <img  class="selectImage col-xs-6" src="imagens/Support_icon.png" data-id="support"> 	  		  		<img  class="selectImage col-xs-6" src="imagens/Tank.png" data-id="tank"> 
 
-  		  		<li><a href=""> <input type="radio" name="imagem" id="i5">
-  		  		<label for="i5"><img src="imagens/Support_icon.png" alt="" =""></label> </a> </li> 
+  		  			</div>
+  		  		</div>
 
-  		  		<li><a href=""> <input type="radio" name="imagem" id="i6"> 
-  		  		<label for="i6"><img src="imagens/Tank.png" alt=""></label></a> </li> 
+
+				<!--
+  		  			<center></center>container 
+  		  				row
+  		  					col's (lg - md - sm - xs) 
   		  		-->
 
-  		  		
-
-  		  	<button onclick="gerarBuilds()" class="btn  btn-xs buttonGenerateBuild" >Generate Build</button>
+  		  	<br/><br/>	
+  		  	<div class="row">
+  		  		<div class="col-md-12 col-lg-12 col-sm-12 text-center"> 
+  		  		<button onclick="gerarBuilds()" class="btn btn-xs buttonGenerateBuild" >Generate Build</button>
+  		  	</div>
+  		  	</div>
   			<div class="builds"> </div>
-  		 </div>
 
+  			<br/><br/>
+
+  		 </div>
 
   	
 
