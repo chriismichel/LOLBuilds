@@ -20,13 +20,17 @@ Invocadores que desejam aumentar suas chances de vitória, através de uma escolha
 
 Acesso ao sistema
 A aplicação está disponpivel através do endereço hackages.com.br/batatones/LOLBuild/frontend/menu
-
-Próximos passos
-Atualmente, as aplicações contam com uma base de dados mockada, porém, a ideia chave é justamente a construção de uma API, no qual será consumida pelas duas aplicações
-
 Ferramentas utilizada
 -Trello
 -Visual studio code
 -Github/gitkraken
 -Sublime
 -Filezilla
+
+Fluxo aplicação
+Inicialmente, o usuário será direcionado para a tela de menu, onde terá a opção de saber um pouco mais sobre a aplicação, saber um pouco mais sobre os desenvolvedores ou gerar sugestões de guilds.
+Ao selecionar a geração de build, o usuário é direcionado para o core da aplicação, onde deve escolher umas das roles para a geração de build.
+Terminado a seleção, o usuário deve clicar no botão de build generator, para que o sistema, com as informações coletadas, sugira possíveis itens para serem adquiridos em suas próximas partidas de league of legends.
+
+Próximos passos
+Atualmente, as aplicações contam com uma base de dados mockada, porém, a ideia chave é justamente a construção de uma API, no qual será consumida pelas duas aplicações.
