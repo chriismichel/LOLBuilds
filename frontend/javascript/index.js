@@ -27,6 +27,7 @@ $(".selectImage").on("click", function(){
 
 function preencheHtmlRoles(lista_de_builds) {
     var builds = $(".builds");
+    builds.empty();
     lista_de_builds.forEach(function(build){
         //criar elementos de exibição
         var divBuild = $("<div>");
