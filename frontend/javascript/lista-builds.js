@@ -7,7 +7,7 @@ var builds =
         [
             {
                 nome: 'Lamina da Fúria de Guinsoo',
-                imagem: https://www.mobafire.com/images/item/guinsoos-rageblade.gif,
+                imagem: 'https://www.mobafire.com/images/item/guinsoos-rageblade.gif',
                 elo: 'Bronze',
                 tipo: 'AD'
             },
