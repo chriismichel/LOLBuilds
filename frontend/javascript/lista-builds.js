@@ -2,7 +2,7 @@ var builds =
 [
     {
         Id: 1,
-        role: "ADC",
+        role: "marksman",
         itens: 
         [
             {
@@ -131,7 +131,7 @@ var builds =
     },
     {
         Id: 4,
-        role: "ADC",
+        role: "marksman",
         itens: 
         [
             {

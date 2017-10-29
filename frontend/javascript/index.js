@@ -34,13 +34,11 @@ function preencheHtmlRoles(lista_de_builds) {
         divBuild.addClass("row");
 
         build.itens.forEach(function(item) {
-            var itemNome = "<div class='col-md-4'>" + item.nome + "</div>";
-            var itemImagem = "<img class='col-md-4' src='" + item.imagem + "'>";
+            var itemNome = "<div class='col-md-1'>" + item.nome + "</div>";
+            var itemImagem = "<img class='col-md-1' src='" + item.imagem + "'>";
             divBuild.append(itemNome);
             divBuild.append(itemImagem);
         });
-        var elementoRole = "<div>" + build.role + "</div>";
-        divBuild.append(elementoRole);
         builds.append(divBuild);
     });
 }

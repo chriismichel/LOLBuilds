@@ -20,6 +20,16 @@ body{
 	height: 100px;
 }
 
+.build {
+	border-radius: 20px;
+	background-color: rgba(139, 49, 49, 0.938);
+	border: 1px solid red;
+	opacity: 50%;
+	color: white;
+	margin: 20px;
+	padding:10px
+}
+
 .titulo{
 	font-size: 40px;
 
