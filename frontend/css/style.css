@@ -66,6 +66,30 @@ ul.navbar-right li img:hover{	/* li.teste:hover*/
 	background-image: url("imagens/fundo.png");
 }
 
+.developers { 
+  background: purple; 
+  border: 1px solid pink; 
+  border-radius: 15px; 
+  margin-top: 15px; 
+  height: 30%; 
+  color:white; 
+} 
+ 
+.imagem-developer { 
+  border-radius: 10px; 
+  width: 135px; 
+  height: 135px; 
+} 
+ 
+.padding { 
+  margin-top: 8px; 
+  margin-bottom: 8px; 
+} 
+ 
+.titulo { 
+  color: white; 
+}
+
 
 
 
