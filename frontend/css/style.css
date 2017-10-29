@@ -1,4 +1,5 @@
 img-log{
+
 	display: block;
 	background-color: black;
 	background-size: contain;
@@ -30,11 +31,15 @@ body{
 }
 
 .selectImage {
+
 	cursor: pointer;  /*  substituir href  */
 }
 
 .icon-bar {
 	background-color: white;
+}
+ul.navbar-right li img:hover{	/* li.teste:hover*/
+	border: 5px solid  white;
 }
 
 
