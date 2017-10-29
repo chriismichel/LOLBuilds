@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/builds_main"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="56dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/selecionar_lane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Selecione a lane que seu campeão irá jogar"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/Button_Group_Lane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selecionar_lane">
+
+            <RadioButton
+                android:id="@+id/Top_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top" />
+
+            <RadioButton
+                android:id="@+id/Mid_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mid" />
+
+            <RadioButton
+                android:id="@+id/Suporte_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suporte" />
+
+            <RadioButton
+                android:id="@+id/ADC_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADC" />
+
+            <RadioButton
+                android:id="@+id/Jungle_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jungle" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/selecione_campeao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="32dp"
+            android:text="Selecione o tipo do seu campeão"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Button_Group_Lane" />
+
+        <RadioButton
+            android:id="@+id/tipo_assassino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Assassino"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selecione_campeao" />
+
+        <RadioButton
+            android:id="@+id/tipo_lutador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lutador"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipo_assassino" />
+
+        <RadioButton
+            android:id="@+id/tipo_mago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mago"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipo_lutador" />
+
+        <RadioButton
+            android:id="@+id/tipo_tanque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanque"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipo_mago" />
+
+        <RadioButton
+            android:id="@+id/tipo_suporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suporte"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipo_tanque" />
+
+        <RadioButton
+            android:id="@+id/atirador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atirador"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tipo_suporte" />
+
+        <TextView
+            android:id="@+id/selecionar_elo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="32dp"
+            android:text="Selecione seu ELO"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/atirador" />
+
+        <RadioButton
+            android:id="@+id/bronze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bronze"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/selecionar_elo" />
+
+        <RadioButton
+            android:id="@+id/prata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bronze" />
+
+        <RadioButton
+            android:id="@+id/ouro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/prata" />
+
+        <RadioButton
+            android:id="@+id/superior"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Superior"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ouro" />
+
+        <Button
+            android:id="@+id/salvar_usuario_mostrarbuilds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/superior"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:onClick="carregaButtons"/>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

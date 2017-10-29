@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_builds"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/buscar_builds" />
+        <item
+            android:id="@+id/nav_champions"
+            android:icon="@drawable/downloa1d"
+            android:title="Campeões" />
+        <item
+            android:id="@+id/nav_itens"
+            app:srcCompat="@drawable/carrinho"
+            android:title="Itens" />
+    </group>
+
+</menu>
