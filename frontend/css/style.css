@@ -53,8 +53,9 @@ ul.navbar-right li img:hover{	/* li.teste:hover*/
 }
 
 .selected {
-
-	border: 8px solid orange;
+	border-radius: 8px;
+	background-color: white;
+	/*border: 8px solid orange;*/
 }
 
 
