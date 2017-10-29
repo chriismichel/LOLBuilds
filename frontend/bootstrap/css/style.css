@@ -1,0 +1,36 @@
+img-log{
+	display: block;
+	background-color: black;
+	background-size: contain;
+}
+
+body {
+	background-color: black;
+}
+
+ searchBuildButon {
+
+}
+
+link-color {
+	text-decoration: none;
+}
+
+input[type="radio"] {
+	visibility: hidden;
+}
+label {
+	display: block;
+	border: 4px solid #666;
+	width: 60px;
+	float: left;
+}
+
+input[type="radio"] : checked+label {
+	border-color: #ccf;
+}
+img {
+	height: 50px;
+}
+
+

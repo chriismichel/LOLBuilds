@@ -1,0 +1,37 @@
+@font-face { 
+   font-family: 'devgothic';
+   src: url('/fonts/devgothic.eot');
+   src: local('devgothic'), local('devgothic'), url('/fonts/devgothic.ttf') format('truetype');
+}
+
+img-log{
+	display: block;
+	background-color: black;
+	background-size: contain;
+}
+
+body{
+	background-color: black;
+}
+
+.buttonGenerateBuild {
+	font-size: 30px;
+	color: #A52A2A;
+}
+
+.logoLol {
+	width: 200px;
+	height: 100px;
+}
+
+.titulo{
+	font-size: 40px;
+
+}
+
+.fonte {
+    font-family: 'devgothic';
+    color: purple;
+}
+
+
