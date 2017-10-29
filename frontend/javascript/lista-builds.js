@@ -45,7 +45,7 @@ var builds =
     },
     {
         Id: 2,
-        role: "Assassino",
+        role: "slayer",
         itens: 
         [
             {
@@ -88,7 +88,7 @@ var builds =
     },
     {
         Id: 3,
-        role: "Lutador",
+        role: "fighter",
         itens: 
         [
             {
