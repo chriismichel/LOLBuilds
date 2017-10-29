@@ -1,0 +1,73 @@
+img-log{
+
+	display: block;
+	background-color: black;
+	background-size: contain;
+}
+
+body{
+	background-color: black;
+}
+
+.buttonGenerateBuild {
+	font-size: 30px;
+	color: black;
+}
+
+.logoLol {
+	margin: 0 auto; 
+	width: 200px;
+	height: 100px;
+}
+
+.build {
+	border-radius: 20px;
+	background-color: rgba(139, 49, 49, 0.938);
+	border: 1px solid red;
+	opacity: 50%;
+	color: white;
+	margin: 20px;
+	padding:10px
+}
+
+.titulo{
+	font-size: 40px;
+
+}
+
+.fonte {
+    font-family: 'devgothic';
+    color: white;
+}
+
+.selectImage {
+
+	cursor: pointer;  /*  substituir href  */
+}
+
+.icon-bar {
+	background-color: white;
+}
+ul.navbar-right li img:hover{	/* li.teste:hover*/
+	border: 5px solid  white;
+}
+
+.selected {
+	border-radius: 8px;
+	background-color: white;
+	/*border: 8px solid orange;*/
+}
+
+.botoesMenu {
+	margin-top: 23%;
+}
+
+.fundoMenu {
+	background-image: url("imagens/fundo.png");
+}
+
+
+
+
+
+
