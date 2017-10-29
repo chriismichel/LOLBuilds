@@ -19,6 +19,8 @@ var imagemSelecionada;
 
 $(".selectImage").on("click", function(){
     imagemSelecionada = $(this).data("id");
+    $('.selectImage').removeClass('selected');
+    $(this).addClass('selected');
     console.log(imagemSelecionada);
 });
 
